@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
+    android:gravity="center_horizontal"
     android:background="@drawable/tela_login"
     android:orientation="vertical"
     tools:context=".Activity.Dificuldades">
@@ -27,25 +27,22 @@
         android:textColor="@color/black"
         android:textSize="30sp" />
 
-    <Button
+    <Spinner
         android:id="@+id/buttonDisciplinaPickerDif"
-        android:layout_width="250dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Calculo"
-        android:textSize="30sp"
+        android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
-        android:textColor="@color/black"
-        style="?android:spinnerStyle"
+        android:padding="10dp"
+        android:gravity="center"
         android:textAlignment="center"
-        android:onClick="openDisciplinaPicker"
-        >
-    </Button>
+        android:textColor="@color/black"></Spinner>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
-        android:text="Lista de alunos com Dificuldades:"
+        android:text="Lista de alunos com Dificuldade:"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="20sp" />
@@ -57,4 +54,5 @@
         android:background="#9AFFFFFF"
         android:padding="10dp"
         android:layout_marginBottom="10dp"/>
+
 </LinearLayout>

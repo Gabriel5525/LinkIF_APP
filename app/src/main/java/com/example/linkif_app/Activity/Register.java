@@ -32,7 +32,6 @@ public class Register extends AppCompatActivity {
     private EditText edt_confirmar_senha_register;
     private CheckBox ckb_mostrar_senha_register;
     private Button btn_registrar_register;
-    private Button btn_login_register;
     private ProgressBar loginProgressBar_register;
 
     private FirebaseAuth mAuth;
@@ -50,7 +49,6 @@ public class Register extends AppCompatActivity {
         edt_confirmar_senha_register = findViewById(R.id.edt_confirmar_senha_register);
         ckb_mostrar_senha_register = findViewById(R.id.ckb_mostrar_senha_register);
         btn_registrar_register = findViewById(R.id.btn_registrar_register);
-        btn_login_register = findViewById(R.id.btn_login_register);
         loginProgressBar_register = findViewById(R.id.loginProgressBar_register);
 
         ckb_mostrar_senha_register.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
@@ -108,14 +106,6 @@ public class Register extends AppCompatActivity {
             }
         });
 
-        btn_login_register.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Register.this, Login.class);
-                startActivity(intent);
-                finish();
-            }
-        });
     }
 
     private void abrirTelaPrincipal() {
@@ -124,5 +114,12 @@ public class Register extends AppCompatActivity {
         finish();
     }
 
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        Intent intent = new Intent(Register.this, MainActivity.class);
+        startActivity(intent);
+        finish();
+    }
 
 }

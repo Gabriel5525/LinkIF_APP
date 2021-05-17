@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LinkIF_APP">
-        <activity android:name=".Activity.Cadastro"></activity>
+        <activity android:name=".Activity.Cadastro_Dificuldades"></activity>
+        <activity android:name=".Activity.Cadastro_Facilidades" />
+        <activity android:name=".Activity.Cadastro" />
         <activity android:name=".Activity.Facilidades" />
         <activity android:name=".Activity.Dificuldades" />
         <activity android:name=".Activity.Register" />

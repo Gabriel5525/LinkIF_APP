@@ -78,14 +78,6 @@
         android:text="Registrar"
         style="@style/registerButton" />
 
-    <Button
-        android:id="@+id/btn_login_register"
-        android:layout_width="380dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="Login"
-        style="@style/loginButton" />
-
     <ProgressBar
         android:id="@+id/loginProgressBar_register"
         android:layout_width="match_parent"

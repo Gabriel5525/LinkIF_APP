@@ -38,7 +38,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginTop="10dp"
-                android:text="Facilidades " />
+                android:text="Facilidades" />
 
             <Button
                 android:id="@+id/button_dificuldades"
@@ -67,7 +67,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginTop="10dp"
-                android:text="Editar Cadastro " />
+                android:text="Cadastrar Facilidades e Dificuldades" />
             <Button
                 android:id="@+id/button_sair"
                 android:layout_width="0dp"
@@ -78,7 +78,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginTop="10dp"
-                android:text="Sair " />
+                android:text="Sair" />
         </LinearLayout>
 
     </LinearLayout>
