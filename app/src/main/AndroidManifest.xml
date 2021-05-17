@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LinkIF_APP">
-        <activity android:name=".Activity.Register"></activity>
+        <activity android:name=".Activity.Cadastro"></activity>
+        <activity android:name=".Activity.Facilidades" />
+        <activity android:name=".Activity.Dificuldades" />
+        <activity android:name=".Activity.Register" />
         <activity android:name=".Activity.Login" />
         <activity android:name=".MainActivity">
             <intent-filter>

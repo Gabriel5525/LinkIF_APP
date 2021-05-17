@@ -6,18 +6,18 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="@color/white"
+    android:background="@drawable/tela_login"
     tools:context=".Activity.Login">
 
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:text="LINK IF"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/logo"
+        android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="40sp"
-        android:layout_marginBottom="120dp"
-        android:textAlignment="center"/>
+        android:textSize="40sp" />
 
     <EditText
         android:id="@+id/edt_email"
@@ -53,21 +53,22 @@
 
     <Button
         android:id="@+id/btn_login"
+        style="@style/loginButton"
         android:layout_width="380dp"
         android:layout_height="wrap_content"
-        android:text="Login"
-        android:textColor="@color/white"
-        android:background="@android:color/holo_blue_light"
-        android:layout_marginTop="20dp"/>
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Login" />
 
     <Button
         android:id="@+id/btn_registrar"
         android:layout_width="380dp"
         android:layout_height="wrap_content"
-        android:background="@android:color/holo_blue_dark"
         android:text="Registrar"
-        android:textColor="@color/white"
+        style="@style/registerButton"
+        android:layout_gravity="center"
         android:layout_marginTop="20dp"/>
+
 
     <ProgressBar
         android:id="@+id/loginProgressBar"
