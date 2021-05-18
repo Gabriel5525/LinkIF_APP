@@ -17,21 +17,14 @@
         android:textColor="@color/black"
         android:textSize="40sp" />
 
-    <ListView
-        android:id="@+id/lst_facilidades_cadastro"
-        android:layout_width="wrap_content"
-        android:layout_height="120dp"
-        android:layout_marginTop="10dp"
-        android:padding="10dp"
-        android:gravity="center"
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Selecione as disciplinas que possui Facilidade"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:background="#A1FFFFFF"
-        android:layout_margin="10dp"
-        android:textSize="16sp"
-        android:layout_marginBottom="20dp"
-        android:longClickable="true"
-        />
+        android:textSize="25sp" />
 
     <ScrollView
         android:layout_width="match_parent"
